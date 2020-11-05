@@ -1,0 +1,1 @@
+{'perc_fit_traces': 0.0, 'average_trace_fitness': 0.1803112861249847, 'log_fitness': 0.17509429982236546}
