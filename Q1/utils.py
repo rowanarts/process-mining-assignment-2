@@ -27,11 +27,11 @@ def _save_pickle(var: Any, path: str) -> None:
         pickle.dump(var, f)
 
 
-def save_parquet(frame: pd.DataFrame) -> None:
+def save_parquet_original(frame: pd.DataFrame) -> None:
     frame.to_parquet(PATH_DF_PARQUET)
 
 
-def save_log(log_object: py4pm) -> None:
+def save_log_original(log_object: py4pm) -> None:
     _save_pickle(log_object, PATH_LOG_PKL)
     
 
@@ -54,11 +54,11 @@ def load_csv() -> pd.DataFrame:
     return pd.read_csv(PATH_CSV)
 
 
-def load_parquet() -> pd.DataFrame:
+def load_parquet_original() -> pd.DataFrame:
     return pd.read_parquet(PATH_DF_PARQUET)
 
 
-def load_log():
+def load_log_original():
     return _load_pickle(PATH_LOG_PKL)
 
 
