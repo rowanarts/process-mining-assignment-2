@@ -42,3 +42,7 @@ def load_csv() -> pd.DataFrame:
 
 def load_parquet() -> pd.DataFrame:
     return pd.read_parquet(PATH_DF_PARQUET)
+
+
+def load_log():
+    return _load_pickle(PATH_LOG_PKL)
