@@ -65,7 +65,7 @@ def generate_outcome_two():
 
 def generate_one_hot_encoding(data=None, level=1):
     if not data:
-        data = load_excel()[['Case ID', 'Activity']]
+        data = load_csv()[['Case ID', 'Activity']]
 
     data['Sub Process'] = data['Activity'].apply(lambda x: x.split('-')[level])
 
