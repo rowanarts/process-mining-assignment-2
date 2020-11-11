@@ -32,7 +32,7 @@ def save_parquet_original(frame: pd.DataFrame) -> None:
 
 
 def save_log_original(log_object: py4pm) -> None:
-    _save_pickle(log_object, PATH_LOG_PKL)
+    return _save_pickle(log_object, PATH_LOG_PKL)
     
 
 def save_parquet_filtered(frame: pd.DataFrame) -> None:
@@ -40,7 +40,7 @@ def save_parquet_filtered(frame: pd.DataFrame) -> None:
     
 
 def save_log_filtered(log_object: py4pm) -> None:
-    _save_pickle(log_object, PATH_LOG_PKL_FILTERED)
+    return _save_pickle(log_object, PATH_LOG_PKL_FILTERED)
 
 
 # LOADING FILES
