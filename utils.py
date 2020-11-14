@@ -3,14 +3,14 @@ from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 import numpy as np
 import pickle
 from typing import Any
-import matplotlib.pyplot as plt
+
 
 DATA_PATH = 'dataset/BPI Challenge 2018.csv'
 PATH_EXCEL = 'dataset/bpi_challenge_2018_50mb.xlsx'  # original log, but saves as csv via Disco
 PATH_DF_PARQUET = 'dataset/BPI_Challenge_df.parquet'  # same as .csv but much faster to load
 PATH_UO1_DF_PARQUET = 'dataset/undesired_outcomes1_df.parquet'
 PATH_LOG = 'dataset/BPI Challenge_log' 
-
+PATH_UND_OUTCOMES = 'dataset/undesired_outcomes_df'
 
 """
 
