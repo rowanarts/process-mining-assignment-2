@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="({'Start_Control'}, {'Start_Reference'})">
+        <name>
+          <text>({'Start_Control'}, {'Start_Reference'})</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'End_Control'}, {'Start_Reference'})">
+        <name>
+          <text>({'End_Control'}, {'Start_Reference'})</text>
+        </name>
+      </place>
+      <place id="({'Start_Reference'}, {'Start_Entitlement'})">
+        <name>
+          <text>({'Start_Reference'}, {'Start_Entitlement'})</text>
+        </name>
+      </place>
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <transition id="End_Inspection">
+        <name>
+          <text>End_Inspection</text>
+        </name>
+      </transition>
+      <transition id="Start_Entitlement">
+        <name>
+          <text>Start_Entitlement</text>
+        </name>
+      </transition>
+      <transition id="During_Department">
+        <name>
+          <text>During_Department</text>
+        </name>
+      </transition>
+      <transition id="End_Payment">
+        <name>
+          <text>End_Payment</text>
+        </name>
+      </transition>
+      <transition id="Start_Control">
+        <name>
+          <text>Start_Control</text>
+        </name>
+      </transition>
+      <transition id="End_Geo">
+        <name>
+          <text>End_Geo</text>
+        </name>
+      </transition>
+      <transition id="During_Payment">
+        <name>
+          <text>During_Payment</text>
+        </name>
+      </transition>
+      <transition id="Start_Parcel">
+        <name>
+          <text>Start_Parcel</text>
+        </name>
+      </transition>
+      <transition id="During_Entitlement">
+        <name>
+          <text>During_Entitlement</text>
+        </name>
+      </transition>
+      <transition id="End_Parcel">
+        <name>
+          <text>End_Parcel</text>
+        </name>
+      </transition>
+      <transition id="Start_Geo">
+        <name>
+          <text>Start_Geo</text>
+        </name>
+      </transition>
+      <transition id="During_Reference">
+        <name>
+          <text>During_Reference</text>
+        </name>
+      </transition>
+      <transition id="During_Parcel">
+        <name>
+          <text>During_Parcel</text>
+        </name>
+      </transition>
+      <transition id="Start_Inspection">
+        <name>
+          <text>Start_Inspection</text>
+        </name>
+      </transition>
+      <transition id="During_Inspection">
+        <name>
+          <text>During_Inspection</text>
+        </name>
+      </transition>
+      <transition id="During_Control">
+        <name>
+          <text>During_Control</text>
+        </name>
+      </transition>
+      <transition id="During_Geo">
+        <name>
+          <text>During_Geo</text>
+        </name>
+      </transition>
+      <transition id="Start_Reference">
+        <name>
+          <text>Start_Reference</text>
+        </name>
+      </transition>
+      <transition id="End_Control">
+        <name>
+          <text>End_Control</text>
+        </name>
+      </transition>
+      <transition id="End_Entitlement">
+        <name>
+          <text>End_Entitlement</text>
+        </name>
+      </transition>
+      <transition id="Start_Payment">
+        <name>
+          <text>Start_Payment</text>
+        </name>
+      </transition>
+      <arc id="8760928352964" source="({'Start_Reference'}, {'Start_Entitlement'})" target="Start_Entitlement"/>
+      <arc id="8760928352925" source="Start_Control" target="({'Start_Control'}, {'Start_Reference'})"/>
+      <arc id="8760928352880" source="End_Control" target="({'End_Control'}, {'Start_Reference'})"/>
+      <arc id="8760928352817" source="({'Start_Control'}, {'Start_Reference'})" target="Start_Reference"/>
+      <arc id="8760928352850" source="({'End_Control'}, {'Start_Reference'})" target="Start_Reference"/>
+      <arc id="8760928353021" source="Start_Reference" target="({'Start_Reference'}, {'Start_Entitlement'})"/>
+    </page>
+  </net>
+</pnml>

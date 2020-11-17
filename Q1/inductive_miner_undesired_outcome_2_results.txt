@@ -1,0 +1,4 @@
+inductive_miner_undesired_outcome_2
+Fitness: {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+Generalization: 0.914807824623988
+Simplicity: 0.5495495495495495
