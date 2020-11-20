@@ -1,4 +1,0 @@
-heuristics_miner
-Fitness: {'perc_fit_traces': 0.0, 'average_trace_fitness': 0.9435404347541183, 'log_fitness': 0.9445339456784474}
-Generalization: 0.9418211325590753
-Simplicity: 0.582295988934993

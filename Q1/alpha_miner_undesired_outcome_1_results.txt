@@ -1,4 +1,0 @@
-alpha_miner_undesired_outcome_1
-Fitness: {'perc_fit_traces': 0.0, 'average_trace_fitness': 0.6233242753623175, 'log_fitness': 0.6340090140094581}
-Generalization: 0.9318515197942236
-Simplicity: 1.0
