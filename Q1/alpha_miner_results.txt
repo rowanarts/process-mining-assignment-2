@@ -1,0 +1,4 @@
+alpha_miner
+Fitness: {'perc_fit_traces': 0.0, 'average_trace_fitness': 0.477584870937788, 'log_fitness': 0.48433008349553314}
+Generalization: 0.9947657507556485
+Simplicity: 1.0

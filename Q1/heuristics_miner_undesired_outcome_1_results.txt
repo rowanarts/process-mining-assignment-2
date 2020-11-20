@@ -1,0 +1,4 @@
+heuristics_miner_undesired_outcome_1
+Fitness: {'perc_fit_traces': 0.0, 'average_trace_fitness': 0.9236145549048547, 'log_fitness': 0.9267942365215158}
+Generalization: 0.7529730135123067
+Simplicity: 0.5812395309882746
